@@ -29,6 +29,8 @@ class OneTest
     @Test
     void gcd()
     {
+        int gcd = One.gcd(12, 36);
 
+        System.out.println(gcd);
     }
 }
