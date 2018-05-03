@@ -21,5 +21,5 @@
 5. 每个单元一个README.md文档，总结下学习过程以及收获和感悟，同时如果学习过程中有感想也可以在当前算法的注释区进行总结和记录
    以便于查看和回顾
 6. 每个算法的test 会单独生成对应的junit test 下图是整个项目的结构
-
 ![](./src/main/resources/images/structure.png)
+7. 其中edu.princeton.cs.algs4目录下是本书对应的[官网](https://algs4.cs.princeton.edu/code/)实现的一些源代码
