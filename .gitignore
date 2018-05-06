@@ -30,3 +30,7 @@ hs_err_pid*
 *.iml
 out
 gen
+target/classes/images/
+target/generated-sources/
+target/generated-test-sources/
+target/test-classes/
