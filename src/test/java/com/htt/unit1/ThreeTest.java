@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 /**
  * Created with IntelliJ IDEA.
  * Author: zky
- * Date: 2018-04-25
- * Time: 09:25:10
+ * Date: 2018-05-10
+ * Time: 22:03:46
  * Description:
  */
-class TwoTest
+class ThreeTest
 {
 
     @BeforeEach
@@ -29,15 +29,9 @@ class TwoTest
     @Test
     void rank()
     {
-        int [] nums = {1,2,3,4,5,6,7,8};
-        int [] nums2 = {5,4,3,2,1};
-        int rank = Two.rank(3, nums2);
+        int [] a= {1,2,3,4,5,6};
+        int rank = Three.rank(3, a);
 
         System.out.println(rank);
-    }
-
-    @Test
-    void rank1()
-    {
     }
 }

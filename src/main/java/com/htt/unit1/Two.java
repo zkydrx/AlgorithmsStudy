@@ -1,5 +1,7 @@
 package com.htt.unit1;
 
+import java.util.Arrays;
+
 /**
  * Created with IntelliJ IDEA.
  * Author: zky
@@ -33,6 +35,7 @@ public class Two
     }
     public static int rank(int key,int [] a,int lo,int hi)
     {
+        Arrays.sort(a);
         //如果key存在于a[]中，他的索引不会小于lo,且不会大于hi
         if(lo>hi)
         {
