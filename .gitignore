@@ -37,3 +37,4 @@ target/test-classes/
 .idea/libraries
 
 AlgorithmsStudy.iml
+target/
